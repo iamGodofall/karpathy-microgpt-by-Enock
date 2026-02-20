@@ -3,7 +3,9 @@ Pre-trained model configurations and zoo.
 Provides ready-to-use model architectures for different use cases.
 """
 
+from typing import Optional
 from config import Config, ModelConfig, TrainingConfig, GenerationConfig
+
 
 
 class ModelZoo:

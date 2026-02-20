@@ -4,9 +4,11 @@ Visualize attention patterns, analyze neuron activations, and probe representati
 """
 
 import math
+import random
 from typing import List, Dict, Tuple, Optional
 from collections import defaultdict
 from model import GPT, Value
+
 
 
 class AttentionVisualizer:

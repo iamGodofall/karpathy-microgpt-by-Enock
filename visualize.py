@@ -7,6 +7,9 @@ from pathlib import Path
 from typing import List, Dict, Optional
 import math
 
+from model import GPT
+
+
 
 def generate_training_plot(log_file: str, output_file: str = "training_curves.html"):
     """Generate interactive training curves using Plotly (if available) or matplotlib."""
