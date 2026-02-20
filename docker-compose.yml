@@ -1,0 +1,79 @@
+version: '3.8'
+
+services:
+  # API Server
+  api:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./checkpoints:/app/checkpoints
+      - ./data:/app/data
+    environment:
+      - FLASK_ENV=production
+      - MODEL_PATH=/app/checkpoints/best_model.pkl
+    command: python api_server.py --host 0.0.0.0 --port 5000
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Web UI
+  web:
+    build: .
+    ports:
+      - "8080:5000"
+    volumes:
+      - ./checkpoints:/app/checkpoints
+      - ./data:/app/data
+    environment:
+      - FLASK_ENV=development
+    command: python web_app.py
+    depends_on:
+      - api
+
+  # Training Service
+  trainer:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./checkpoints:/app/checkpoints
+      - ./logs:/app/logs
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: >
+      python main.py train 
+      --config config.yaml 
+      --data /app/data/input.txt
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+
+  # Jupyter Notebook for experiments
+  notebook:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./:/app
+      - ./notebooks:/app/notebooks
+    command: >
+      bash -c "pip install jupyter &&
+               jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root"
+    profiles:
+      - dev
+
+  # Redis for caching (optional)
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    profiles:
+      - production
+
+volumes:
+  redis_data:

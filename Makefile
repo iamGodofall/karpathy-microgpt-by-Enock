@@ -1,41 +1,94 @@
-.PHONY: help install test train generate web clean lint format
+.PHONY: help install install-dev test test-cov lint format clean docker-build docker-run docs
 
 help:
-	@echo "Available commands:"
-	@echo "  make install    - Install package and dependencies"
-	@echo "  make test       - Run all tests"
-	@echo "  make train      - Train a model with default settings"
-	@echo "  make generate   - Generate text from trained model"
-	@echo "  make web        - Start web interface"
-	@echo "  make clean      - Clean generated files"
-	@echo "  make lint       - Run code linting"
-	@echo "  make format     - Format code with black"
+	@echo "microgpt Makefile commands:"
+	@echo "  install      - Install package"
+	@echo "  install-dev  - Install with dev dependencies"
+	@echo "  test         - Run tests"
+	@echo "  test-cov     - Run tests with coverage"
+	@echo "  integration  - Run integration tests"
+	@echo "  lint         - Run linters"
+	@echo "  format       - Format code with black"
+	@echo "  clean        - Clean build artifacts"
+	@echo "  docker-build - Build Docker image"
+	@echo "  docker-run   - Run Docker container"
+	@echo "  train        - Quick training run"
+	@echo "  generate     - Quick generation"
+	@echo "  chat         - Start chat interface"
+	@echo "  server       - Start API server"
+	@echo "  profile      - Profile model performance"
 
 install:
 	pip install -e .
 
+install-dev:
+	pip install -e ".[dev,all]"
+
+install-all:
+	pip install -e ".[all]"
+
 test:
-	python test_microgpt.py
+	python -m pytest tests/ -v
 
-train:
-	python cli.py train --config config.yaml --experiment-name default
+test-cov:
+	python -m pytest tests/ --cov=microgpt --cov-report=html --cov-report=term
 
-generate:
-	python cli.py generate --temperature 0.7 --num-samples 10
-
-web:
-	python web_app.py
-
-clean:
-	rm -rf __pycache__ .pytest_cache
-	rm -rf checkpoints/*.pkl checkpoints/*.json
-	rm -rf logs/*.jsonl
-	rm -rf build dist *.egg-info
-	find . -name "*.pyc" -delete
-	find . -name "__pycache__" -type d -exec rm -rf {} + 2>/dev/null || true
+integration:
+	python integration_test.py
 
 lint:
-	flake8 *.py --max-line-length=100 --ignore=E203,W503
+	flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+	flake8 . --count --exit-zero --max-complexity=10 --max-line-length=100 --statistics
 
 format:
-	black *.py --line-length=100
+	black . --line-length=100
+
+type-check:
+	mypy . --ignore-missing-imports
+
+clean:
+	rm -rf build/
+	rm -rf dist/
+	rm -rf *.egg-info/
+	rm -rf .pytest_cache/
+	rm -rf .mypy_cache/
+	rm -rf htmlcov/
+	rm -rf .coverage
+	find . -type d -name __pycache__ -exec rm -rf {} +
+	find . -type f -name "*.pyc" -delete
+	find . -type f -name "*.pyo" -delete
+
+docker-build:
+	docker build -t microgpt:latest .
+
+docker-run:
+	docker run -it --rm -p 5000:5000 microgpt:latest
+
+train:
+	python main.py train --epochs 100
+
+generate:
+	python main.py generate --num-samples 5
+
+chat:
+	python main.py chat
+
+server:
+	python api_server.py
+
+profile:
+	python -c "from profiling import profile_model; from model import GPT; m = GPT(256, 16, 2, 32, 4); profile_model(m, 'all')"
+
+benchmark:
+	python benchmark.py
+
+zoo:
+	python main.py zoo
+
+check: lint test integration
+	@echo "All checks passed!"
+
+all: install-dev check
+	@echo "Setup complete!"
+
+.DEFAULT_GOAL := help
