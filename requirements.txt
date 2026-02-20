@@ -1,0 +1,14 @@
+# Core dependencies (optional - microgpt works without these)
+pyyaml>=6.0
+
+# For visualization
+plotly>=5.0
+matplotlib>=3.5
+
+# For web interface
+flask>=2.0
+
+# For development
+pytest>=7.0
+black>=22.0
+flake8>=5.0
