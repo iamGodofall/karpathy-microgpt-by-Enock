@@ -1,0 +1,39 @@
+# microgpt Configuration File
+# This is an example configuration with enhanced settings
+
+model:
+  n_layer: 2              # Number of transformer layers (default: 1)
+  n_embd: 32              # Embedding dimension (default: 16)
+  n_head: 4               # Number of attention heads (default: 4)
+  block_size: 32            # Maximum context length (default: 16)
+  dropout: 0.1              # Dropout probability (0 = disabled)
+  use_gelu: true            # Use GELU instead of ReLU
+  use_layernorm: false      # Use LayerNorm instead of RMSNorm
+
+training:
+  num_steps: 2000           # Total training steps
+  batch_size: 1             # Batch size (currently only 1 supported)
+  learning_rate: 0.01       # Initial learning rate
+  beta1: 0.9                # Adam beta1 parameter
+  beta2: 0.999              # Adam beta2 parameter
+  eps_adam: 1.0e-8          # Adam epsilon
+  weight_decay: 0.01        # L2 regularization (0 = disabled)
+  grad_clip: 1.0            # Gradient clipping threshold (0 = disabled)
+  lr_schedule: cosine       # Learning rate schedule: linear, cosine, constant
+  warmup_steps: 100         # Warmup steps for cosine schedule
+  val_split: 0.1            # Validation set fraction
+  eval_interval: 100         # Validate every N steps
+  save_interval: 500         # Save checkpoint every N steps
+
+generation:
+  temperature: 0.7           # Sampling temperature (0.1 = focused, 1.0 = random)
+  top_k: 40                  # Top-k sampling (0 = disabled)
+  top_p: 0.9                 # Nucleus sampling (1.0 = disabled)
+  max_length: 50             # Maximum generation length
+  num_samples: 10              # Number of samples to generate
+  seed: 42                     # Random seed for reproducibility
+
+# Paths
+checkpoint_dir: checkpoints
+log_dir: logs
+data_path: input.txt
