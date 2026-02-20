@@ -83,16 +83,21 @@ Changelog = "https://github.com/iamGodofall/karpathy-microgpt-by-Enock/blob/mast
 
 [project.scripts]
 microgpt = "main:main"
-microgpt-train = "cli:train_cli"
-microgpt-generate = "cli:generate_cli"
-microgpt-chat = "chat:main"
-microgpt-server = "api_server:main"
+microgpt-train = "microgpt.cli:train_cli"
+microgpt-generate = "microgpt.cli:generate_cli"
+microgpt-chat = "microgpt.chat:main"
+microgpt-server = "microgpt.api_server:main"
+
 
 [tool.setuptools]
 packages = ["microgpt"]
 
 [tool.setuptools.package-data]
 microgpt = ["*.yaml", "*.json", "*.md"]
+
+[tool.setuptools.package-dir]
+microgpt = "microgpt"
+
 
 [tool.black]
 line-length = 100

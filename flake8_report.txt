@@ -1,0 +1,1482 @@
+microgpt/advanced_training.py:8:1: F401 'typing.Optional' imported but unused
+microgpt/advanced_training.py:8:1: F401 'typing.Callable' imported but unused
+microgpt/agents.py:6:1: F401 'random' imported but unused
+microgpt/agents.py:247:9: E722 do not use bare 'except'
+microgpt/agents.py:269:9: E722 do not use bare 'except'
+microgpt/api_server.py:6:1: F401 'json' imported but unused
+microgpt/api_server.py:12:1: F401 '.chat.ChatBot' imported but unused
+microgpt/api_server.py:248:33: E741 ambiguous variable name 'l'
+microgpt/auto_ml.py:7:1: F401 'json' imported but unused
+microgpt/auto_ml.py:10:1: F401 'typing.Optional' imported but unused
+microgpt/auto_ml.py:10:1: F401 'typing.Tuple' imported but unused
+microgpt/auto_ml.py:11:1: F401 'dataclasses.asdict' imported but unused
+microgpt/auto_ml.py:135:9: F401 'sklearn.feature_selection.mutual_info_regression' imported but unused
+microgpt/benchmark.py:8:1: F401 'typing.Callable' imported but unused
+microgpt/benchmark.py:52:17: F841 local variable 'logits' is assigned to but never used
+microgpt/benchmark.py:87:37: E741 ambiguous variable name 'l'
+microgpt/benchmark.py:184:17: F841 local variable 'logits' is assigned to but never used
+microgpt/bio_inspired.py:7:1: F401 'copy' imported but unused
+microgpt/bio_inspired.py:8:1: F401 'typing.Optional' imported but unused
+microgpt/chat.py:6:1: F401 'sys' imported but unused
+microgpt/chat.py:82:43: E741 ambiguous variable name 'l'
+microgpt/chat.py:110:63: E741 ambiguous variable name 'l'
+microgpt/chat.py:111:79: E741 ambiguous variable name 'l'
+microgpt/chat.py:156:101: E501 line too long (107 > 100 characters)
+microgpt/chat.py:180:63: W291 trailing whitespace
+microgpt/chat.py:181:53: W291 trailing whitespace
+microgpt/checkpoint.py:7:1: F401 'os' imported but unused
+microgpt/checkpoint.py:120:13: E722 do not use bare 'except'
+microgpt/cli.py:9:1: F401 'pathlib.Path' imported but unused
+microgpt/cli.py:14:1: F401 '.data.CharTokenizer' imported but unused
+microgpt/cli.py:14:1: F401 '.data.BPETokenizer' imported but unused
+microgpt/cli.py:182:101: E501 line too long (123 > 100 characters)
+microgpt/cli.py:314:1: W293 blank line contains whitespace
+microgpt/cli.py:317:1: W293 blank line contains whitespace
+microgpt/cli.py:320:1: W293 blank line contains whitespace
+microgpt/compression.py:8:1: F401 'typing.Tuple' imported but unused
+microgpt/compression.py:8:1: F401 'typing.Optional' imported but unused
+microgpt/compression.py:148:44: E741 ambiguous variable name 'l'
+microgpt/compression.py:275:29: E741 ambiguous variable name 'l'
+microgpt/compression.py:301:33: E741 ambiguous variable name 'l'
+microgpt/config.py:9:1: F401 'typing.Optional' imported but unused
+microgpt/config_validator.py:8:1: F401 'typing.Tuple' imported but unused
+microgpt/config_validator.py:8:1: F401 'typing.Optional' imported but unused
+microgpt/config_validator.py:119:101: E501 line too long (102 > 100 characters)
+microgpt/data.py:11:1: F401 'pathlib.Path' imported but unused
+microgpt/data_pipeline.py:7:1: F401 'json' imported but unused
+microgpt/data_pipeline.py:8:1: F401 'typing.Optional' imported but unused
+microgpt/deployment_guide.py:6:1: F401 'os' imported but unused
+microgpt/deployment_guide.py:9:1: F401 'subprocess' imported but unused
+microgpt/deployment_guide.py:11:1: F401 'typing.List' imported but unused
+microgpt/deployment_guide.py:249:19: F541 f-string is missing placeholders
+microgpt/deployment_guide.py:270:1: W293 blank line contains whitespace
+microgpt/deployment_guide.py:274:1: W293 blank line contains whitespace
+microgpt/deployment_guide.py:280:1: W293 blank line contains whitespace
+microgpt/deployment_guide.py:336:13: F401 'microgpt' imported but unused
+microgpt/deployment_guide.py:337:13: F401 'model' imported but unused
+microgpt/distributed.py:83:13: F841 local variable 'keys' is assigned to but never used
+microgpt/distributed.py:84:13: F841 local variable 'values' is assigned to but never used
+microgpt/distributed.py:220:13: F841 local variable 'tokens' is assigned to but never used
+microgpt/evaluation.py:8:1: F401 'typing.Tuple' imported but unused
+microgpt/evaluation.py:8:1: F401 'typing.Optional' imported but unused
+microgpt/export.py:8:1: F401 'typing.List' imported but unused
+microgpt/export.py:8:1: F401 'typing.Optional' imported but unused
+microgpt/export.py:194:9: F401 'model.Value' imported but unused
+microgpt/export.py:223:9: F401 'model.Value' imported but unused
+microgpt/export.py:253:9: F401 'model.Value' imported but unused
+microgpt/export.py:281:9: F401 'torch' imported but unused
+microgpt/feature_store.py:8:1: F401 'numpy as np' imported but unused
+microgpt/finetune.py:7:1: F401 'pathlib.Path' imported but unused
+microgpt/finetune.py:8:1: F401 'typing.List' imported but unused
+microgpt/finetune.py:8:1: F401 'typing.Optional' imported but unused
+microgpt/finetune.py:13:1: F401 '.config.Config' imported but unused
+microgpt/fractal_network.py:8:1: F401 'typing.Dict' imported but unused
+microgpt/fractal_network.py:8:1: F401 'typing.Any' imported but unused
+microgpt/fractal_network.py:8:1: F401 'typing.Optional' imported but unused
+microgpt/fractal_network.py:8:1: F401 'typing.Tuple' imported but unused
+microgpt/hrm_adapter.py:13:1: F401 'dataclasses.field' imported but unused
+microgpt/hrm_adapter.py:14:1: F401 '.microgpt.gelu' imported but unused
+microgpt/hrm_adapter.py:244:9: F841 local variable 'batch_size' is assigned to but never used
+microgpt/hrm_adapter.py:515:43: E741 ambiguous variable name 'l'
+microgpt/hrm_enhanced.py:8:1: F401 'json' imported but unused
+microgpt/hrm_enhanced.py:9:1: F401 'typing.Dict' imported but unused
+microgpt/hrm_enhanced.py:9:1: F401 'typing.Tuple' imported but unused
+microgpt/hrm_enhanced.py:9:1: F401 'typing.Optional' imported but unused
+microgpt/hrm_enhanced.py:9:1: F401 'typing.Any' imported but unused
+microgpt/hrm_enhanced.py:9:1: F401 'typing.Callable' imported but unused
+microgpt/hrm_enhanced.py:10:1: F401 'dataclasses.asdict' imported but unused
+microgpt/hrm_enhanced.py:12:1: F401 'copy' imported but unused
+microgpt/hrm_enhanced.py:137:9: F401 'microgpt.rmsnorm' imported but unused
+microgpt/hrm_enhanced.py:179:9: F401 'microgpt.Value' imported but unused
+microgpt/hrm_enhanced.py:365:9: F401 'microgpt.linear' imported but unused
+microgpt/hyperparameter_tuner.py:8:1: F401 'time' imported but unused
+microgpt/hyperparameter_tuner.py:10:1: F401 'typing.Optional' imported but unused
+microgpt/hyperparameter_tuner.py:10:1: F401 'typing.Tuple' imported but unused
+microgpt/hyperparameter_tuner.py:12:1: F401 'pathlib.Path' imported but unused
+microgpt/inference_optimizations.py:8:1: F401 'typing.Set' imported but unused
+microgpt/inference_optimizations.py:176:72: E741 ambiguous variable name 'l'
+microgpt/inference_optimizations.py:204:45: E741 ambiguous variable name 'l'
+microgpt/inference_optimizations.py:248:47: E741 ambiguous variable name 'l'
+microgpt/inference_optimizations.py:276:54: E741 ambiguous variable name 'l'
+microgpt/inference_optimizations.py:302:45: E741 ambiguous variable name 'l'
+microgpt/inference_optimizations.py:444:13: F841 local variable 'attend_positions' is assigned to but never used
+microgpt/inference_optimizations.py:467:33: E741 ambiguous variable name 'l'
+microgpt/interpretability.py:8:1: F401 'typing.Optional' imported but unused
+microgpt/interpretability.py:10:1: F401 '.model.Value' imported but unused
+microgpt/interpretability.py:82:9: F841 local variable 'attentions' is assigned to but never used
+microgpt/interpretability.py:133:13: F841 local variable 'logits' is assigned to but never used
+microgpt/interpretability.py:234:53: E741 ambiguous variable name 'l'
+microgpt/interpretability.py:294:31: E741 ambiguous variable name 'l'
+microgpt/interpretability.py:369:5: F841 local variable 'prober' is assigned to but never used
+microgpt/memory_efficient.py:7:1: F401 'math' imported but unused
+microgpt/memory_efficient.py:8:1: F401 'typing.Optional' imported but unused
+microgpt/memory_efficient.py:8:1: F401 'typing.Tuple' imported but unused
+microgpt/microgpt.py:114:1: E731 do not assign a lambda expression, use a def
+microgpt/microgpt.py:135:101: E501 line too long (104 > 100 characters)
+microgpt/microgpt.py:136:101: E501 line too long (109 > 100 characters)
+microgpt/microgpt.py:212:101: E501 line too long (109 > 100 characters)
+microgpt/microgpt.py:247:46: E741 ambiguous variable name 'l'
+microgpt/microgpt_hrm_integration.py:7:1: F401 'math' imported but unused
+microgpt/microgpt_hrm_integration.py:12:1: F401 '.hrm_adapter.HRMCarry' imported but unused
+microgpt/microgpt_hrm_integration.py:238:43: E741 ambiguous variable name 'l'
+microgpt/microgpt_openclaw_integration.py:9:1: F401 'math' imported but unused
+microgpt/microgpt_openclaw_integration.py:11:1: F401 'time' imported but unused
+microgpt/microgpt_openclaw_integration.py:12:1: F401 'typing.Callable' imported but unused
+microgpt/microgpt_openclaw_integration.py:12:1: F401 'typing.Tuple' imported but unused
+microgpt/microgpt_openclaw_integration.py:13:1: F401 'dataclasses.field' imported but unused
+microgpt/microgpt_openclaw_integration.py:17:1: F401 '.microgpt.cross_entropy' imported but unused
+microgpt/microgpt_openclaw_integration.py:17:1: F401 '.microgpt.gelu' imported but unused
+microgpt/microgpt_openclaw_integration.py:20:1: F401 '.openclaw_adapter.Session' imported but unused
+microgpt/microgpt_openclaw_integration.py:20:1: F401 '.openclaw_adapter.SessionManager' imported but unused
+microgpt/microgpt_openclaw_integration.py:20:1: F401 '.openclaw_adapter.AuthProfile' imported but unused
+microgpt/microgpt_openclaw_integration.py:20:1: F401 '.openclaw_adapter.AuthProfileStore' imported but unused
+microgpt/microgpt_openclaw_integration.py:20:1: F401 '.openclaw_adapter.ThinkLevel' imported but unused
+microgpt/microgpt_openclaw_integration.py:105:9: F841 local variable 'head_dim' is assigned to but never used
+microgpt/microgpt_openclaw_integration.py:309:50: E741 ambiguous variable name 'l'
+microgpt/model_analyzer.py:6:1: F401 'math' imported but unused
+microgpt/model_analyzer.py:7:1: F401 'typing.Tuple' imported but unused
+microgpt/model_analyzer.py:142:101: E501 line too long (110 > 100 characters)
+microgpt/model_analyzer.py:177:15: F541 f-string is missing placeholders
+microgpt/model_analyzer.py:182:15: F541 f-string is missing placeholders
+microgpt/model_analyzer.py:188:15: F541 f-string is missing placeholders
+microgpt/model_analyzer.py:193:19: F541 f-string is missing placeholders
+microgpt/model_comparison.py:6:1: F401 'json' imported but unused
+microgpt/model_comparison.py:8:1: F401 'typing.Optional' imported but unused
+microgpt/model_comparison.py:9:1: F401 'dataclasses.asdict' imported but unused
+microgpt/model_comparison.py:10:1: F401 'pathlib.Path' imported but unused
+microgpt/model_merging.py:7:1: F401 'math' imported but unused
+microgpt/model_merging.py:8:1: F401 'typing.Tuple' imported but unused
+microgpt/model_merging.py:9:1: F401 '.model.Value' imported but unused
+microgpt/model_registry.py:240:19: F541 f-string is missing placeholders
+microgpt/model_server.py:9:1: F401 'typing.Optional' imported but unused
+microgpt/model_server.py:11:1: F401 'collections.deque' imported but unused
+microgpt/modern_architecture.py:8:1: F401 'typing.Optional' imported but unused
+microgpt/modern_architecture.py:9:1: F401 '.model.rmsnorm' imported but unused
+microgpt/modern_architecture.py:9:1: F401 '.model.softmax' imported but unused
+microgpt/monitoring.py:9:1: F401 'typing.Any' imported but unused
+microgpt/monitoring.py:10:1: F401 'dataclasses.asdict' imported but unused
+microgpt/monitoring.py:12:1: F401 'pathlib.Path' imported but unused
+microgpt/monitoring.py:100:9: F841 local variable 'e' is assigned to but never used
+microgpt/multimodal.py:7:1: F401 'math' imported but unused
+microgpt/multimodal.py:8:1: F401 'typing.Dict' imported but unused
+microgpt/multimodal.py:285:9: E722 do not use bare 'except'
+microgpt/multimodal.py:329:20: F541 f-string is missing placeholders
+microgpt/multimodal.py:394:9: F841 local variable 'prompt' is assigned to but never used
+microgpt/omni_system.py:7:1: F401 'time' imported but unused
+microgpt/omni_system.py:8:1: F401 'typing.Optional' imported but unused
+microgpt/omni_system.py:11:1: F401 '.bio_inspired.Genome' imported but unused
+microgpt/omni_system.py:54:9: F401 'bio_inspired.NeuralPhenotype' imported but unused
+microgpt/omni_system.py:54:9: F811 redefinition of unused 'Genome' from line 11
+microgpt/omni_system.py:225:9: E722 do not use bare 'except'
+microgpt/omni_system.py:295:11: F541 f-string is missing placeholders
+microgpt/openclaw_adapter.py:9:1: F401 'typing.Tuple' imported but unused
+microgpt/openclaw_enhanced.py:9:1: F401 'asyncio' imported but unused
+microgpt/openclaw_enhanced.py:10:1: F401 'typing.AsyncIterator' imported but unused
+microgpt/openclaw_enhanced.py:10:1: F401 'typing.Union' imported but unused
+microgpt/orchestrator.py:10:1: F401 'typing.Optional' imported but unused
+microgpt/orchestrator.py:10:1: F401 'typing.Callable' imported but unused
+microgpt/orchestrator.py:14:1: F401 'time' imported but unused
+microgpt/performance_profiler.py:7:1: F401 'sys' imported but unused
+microgpt/performance_profiler.py:10:1: F401 'typing.Callable' imported but unused
+microgpt/performance_profiler.py:10:1: F401 'typing.Optional' imported but unused
+microgpt/performance_profiler.py:11:1: F401 'dataclasses.field' imported but unused
+microgpt/pretrain.py:6:1: F401 'os' imported but unused
+microgpt/pretrain.py:10:1: F401 'typing.List' imported but unused
+microgpt/pretrain.py:10:1: F401 'typing.Optional' imported but unused
+microgpt/pretrain.py:14:1: F401 '.trainer.TrainingConfig' imported but unused
+microgpt/pretrain.py:74:11: F541 f-string is missing placeholders
+microgpt/pretrain.py:123:13: F841 local variable 'start_step' is assigned to but never used
+microgpt/pretrain.py:183:5: F841 local variable 'summary' is assigned to but never used
+microgpt/profiling.py:7:1: F401 'math' imported but unused
+microgpt/profiling.py:8:1: F401 'typing.Optional' imported but unused
+microgpt/profiling.py:10:1: F401 'collections.defaultdict' imported but unused
+microgpt/profiling.py:119:9: F401 'sys' imported but unused
+microgpt/profiling.py:404:17: F841 local variable 'logits' is assigned to but never used
+microgpt/quantization.py:6:1: F401 'math' imported but unused
+microgpt/quantum_inspired.py:9:1: F401 'typing.Tuple' imported but unused
+microgpt/quantum_inspired.py:9:1: F401 'typing.Dict' imported but unused
+microgpt/quantum_inspired.py:9:1: F401 'typing.Optional' imported but unused
+microgpt/quantum_inspired.py:178:13: F841 local variable 'measurement' is assigned to but never used
+microgpt/quantum_inspired.py:284:11: F541 f-string is missing placeholders
+microgpt/reasoning.py:52:13: F841 local variable 'full_text' is assigned to but never used
+microgpt/safety_alignment.py:8:1: F401 'typing.Optional' imported but unused
+microgpt/safety_alignment.py:160:9: F841 local variable 'critique_prompt' is assigned to but never used
+microgpt/safety_alignment.py:175:9: F841 local variable 'revision_prompt' is assigned to but never used
+microgpt/safety_alignment.py:230:30: E741 ambiguous variable name 'l'
+microgpt/safety_alignment.py:402:13: F841 local variable 'correction_prompt' is assigned to but never used
+microgpt/self_modifying.py:9:1: F401 'types' imported but unused
+microgpt/self_modifying.py:14:1: F401 'pathlib.Path' imported but unused
+microgpt/self_modifying.py:100:101: E501 line too long (126 > 100 characters)
+microgpt/self_modifying.py:214:1: E402 module level import not at top of file
+microgpt/self_modifying.py:228:11: F541 f-string is missing placeholders
+microgpt/state_of_the_art.py:8:1: F401 'typing.Optional' imported but unused
+microgpt/state_of_the_art.py:8:1: F401 'typing.Dict' imported but unused
+microgpt/state_of_the_art.py:322:9: F841 local variable 'v2' is assigned to but never used
+microgpt/state_of_the_art.py:545:46: E741 ambiguous variable name 'l'
+microgpt/swarm_intelligence.py:8:1: F401 'typing.Any' imported but unused
+microgpt/swarm_intelligence.py:8:1: F401 'typing.Optional' imported but unused
+microgpt/test_runner.py:11:1: F401 'pathlib.Path' imported but unused
+microgpt/tokenizers.py:6:1: F401 're' imported but unused
+microgpt/tokenizers.py:8:1: F401 'typing.Optional' imported but unused
+microgpt/tokenizers.py:10:1: F401 'random' imported but unused
+microgpt/unified_integration.py:7:1: F401 'random' imported but unused
+microgpt/unified_integration.py:9:1: F401 'typing.Callable' imported but unused
+microgpt/unified_integration.py:12:1: F401 'dataclasses.field' imported but unused
+microgpt/unified_universe.py:8:1: F401 'time' imported but unused
+microgpt/unified_universe.py:9:1: F401 'typing.List' imported but unused
+microgpt/unified_universe.py:9:1: F401 'typing.Optional' imported but unused
+microgpt/unified_universe.py:9:1: F401 'typing.Tuple' imported but unused
+microgpt/unified_universe.py:10:1: F401 'dataclasses.field' imported but unused
+microgpt/unified_universe.py:11:1: F401 'pathlib.Path' imported but unused
+microgpt/unified_universe.py:117:9: F841 local variable 'frac_net' is assigned to but never used
+microgpt/unified_universe.py:121:9: F841 local variable 'variant' is assigned to but never used
+microgpt/visualize.py:6:1: F401 'pathlib.Path' imported but unused
+microgpt/visualize.py:7:1: F401 'typing.Dict' imported but unused
+microgpt/visualize.py:124:11: F541 f-string is missing placeholders
+microgpt/visualize.py:133:11: F541 f-string is missing placeholders
+microgpt/visualize.py:147:11: F541 f-string is missing placeholders
+microgpt/visualize.py:172:5: F401 'checkpoint.CheckpointManager' imported but unused
+microgpt/visualize.py:232:11: F541 f-string is missing placeholders
+microgpt/visualize.py:243:9: F401 'torch' imported but unused
+microgpt/visualize.py:244:9: F401 'torch.nn' imported but unused
+microgpt/web_app.py:12:1: F401 '.data.CharTokenizer' imported but unused
+microgpt/web_app.py:81:5: F824 `global model` is unused: name is never assigned in scope
+microgpt/web_app.py:81:5: F824 `global tokenizer` is unused: name is never assigned in scope
+microgpt/web_app.py:81:5: F824 `global config` is unused: name is never assigned in scope
+microgpt/web_app.py:127:50: E741 ambiguous variable name 'l'
+microgpt/web_app.py:181:5: F824 `global model` is unused: name is never assigned in scope
+microgpt/web_app.py:181:5: F824 `global config` is unused: name is never assigned in scope
+microgpt/web_app.py:297:1: W293 blank line contains whitespace
+microgpt/web_app.py:312:1: W293 blank line contains whitespace
+microgpt/web_app.py:327:1: W293 blank line contains whitespace
+microgpt/web_app.py:329:1: W293 blank line contains whitespace
+microgpt/web_app.py:337:1: W293 blank line contains whitespace
+microgpt/web_app.py:340:1: W293 blank line contains whitespace
+microgpt/web_app.py:348:62: W291 trailing whitespace
+microgpt/web_app.py:351:1: W293 blank line contains whitespace
+microgpt/web_app.py:358:1: W293 blank line contains whitespace
+microgpt/web_app.py:360:1: W293 blank line contains whitespace
+[1m.\examples\01_basic_training.py[m[36m:[m40[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\examples\01_basic_training.py[m[36m:[m52[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\examples\01_basic_training.py[m[36m:[m70[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\examples\03_model_zoo.py[m[36m:[m7[36m:[m1[36m:[m [1m[31mF401[m 'benchmark.ComparativeBenchmark' imported but unused
+[1m.\examples\03_model_zoo.py[m[36m:[m47[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\examples\03_model_zoo.py[m[36m:[m50[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\examples\04_quantization.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'quantization.quantize_model' imported but unused
+[1m.\examples\04_quantization.py[m[36m:[m22[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\examples\04_quantization.py[m[36m:[m72[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\examples\05_interpretability.py[m[36m:[m8[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\examples\05_interpretability.py[m[36m:[m22[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\examples\05_interpretability.py[m[36m:[m59[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\examples\06_export_formats.py[m[36m:[m22[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\examples\06_export_formats.py[m[36m:[m74[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\examples\07_openclaw_integration.py[m[36m:[m10[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\examples\07_openclaw_integration.py[m[36m:[m33[36m:[m11[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\examples\07_openclaw_integration.py[m[36m:[m39[36m:[m11[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\examples\07_openclaw_integration.py[m[36m:[m41[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\examples\07_openclaw_integration.py[m[36m:[m75[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\examples\07_openclaw_integration.py[m[36m:[m96[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\examples\07_openclaw_integration.py[m[36m:[m104[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\examples\08_hrm_integration.py[m[36m:[m23[36m:[m1[36m:[m [1m[31mF401[m 'microgpt_hrm_integration.CharTokenizer' imported but unused
+[1m.\examples\08_hrm_integration.py[m[36m:[m23[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\examples\08_hrm_integration.py[m[36m:[m82[36m:[m5[36m:[m [1m[31mF841[m local variable 'history' is assigned to but never used
+[1m.\examples\08_hrm_integration.py[m[36m:[m103[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\examples\08_hrm_integration.py[m[36m:[m187[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\examples\08_hrm_integration.py[m[36m:[m197[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\examples\08_hrm_integration.py[m[36m:[m198[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\examples\08_hrm_integration.py[m[36m:[m203[36m:[m11[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\examples\08_hrm_integration.py[m[36m:[m245[36m:[m5[36m:[m [1m[31mF841[m local variable 'history' is assigned to but never used
+[1m.\examples\08_hrm_integration.py[m[36m:[m256[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\examples\08_hrm_integration.py[m[36m:[m278[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\examples\09_complete_workflow.py[m[36m:[m13[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\examples\09_complete_workflow.py[m[36m:[m14[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\examples\09_complete_workflow.py[m[36m:[m15[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\examples\09_complete_workflow.py[m[36m:[m16[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\examples\09_complete_workflow.py[m[36m:[m17[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\examples\09_complete_workflow.py[m[36m:[m18[36m:[m1[36m:[m [1m[31mF401[m 'logger.Logger' imported but unused
+[1m.\examples\09_complete_workflow.py[m[36m:[m18[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\examples\09_complete_workflow.py[m[36m:[m19[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\examples\09_complete_workflow.py[m[36m:[m20[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\examples\09_complete_workflow.py[m[36m:[m21[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\examples\09_complete_workflow.py[m[36m:[m22[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\examples\09_complete_workflow.py[m[36m:[m23[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\examples\09_complete_workflow.py[m[36m:[m24[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\examples\09_complete_workflow.py[m[36m:[m25[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\examples\09_complete_workflow.py[m[36m:[m26[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\examples\09_complete_workflow.py[m[36m:[m60[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\examples\09_complete_workflow.py[m[36m:[m135[36m:[m9[36m:[m [1m[31mE722[m do not use bare 'except'
+[1m.\examples\09_complete_workflow.py[m[36m:[m211[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\examples\09_complete_workflow.py[m[36m:[m214[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\examples\09_complete_workflow.py[m[36m:[m229[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\fix_linting.py[m[36m:[m76[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\fix_linting.py[m[36m:[m106[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\integration_test.py[m[36m:[m32[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\integration_test.py[m[36m:[m91[36m:[m5[36m:[m [1m[31mF841[m local variable 'penalized' is assigned to but never used
+[1m.\integration_test.py[m[36m:[m92[36m:[m11[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\integration_test.py[m[36m:[m119[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\integration_test.py[m[36m:[m145[36m:[m5[36m:[m [1m[31mF841[m local variable 'gc' is assigned to but never used
+[1m.\integration_test.py[m[36m:[m146[36m:[m11[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\integration_test.py[m[36m:[m161[36m:[m5[36m:[m [1m[31mF841[m local variable 'model' is assigned to but never used
+[1m.\integration_test.py[m[36m:[m172[36m:[m5[36m:[m [1m[31mF841[m local variable 'dequantized' is assigned to but never used
+[1m.\integration_test.py[m[36m:[m235[36m:[m5[36m:[m [1m[31mF841[m local variable 'soup' is assigned to but never used
+[1m.\integration_test.py[m[36m:[m236[36m:[m11[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\integration_test.py[m[36m:[m256[36m:[m11[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\integration_test.py[m[36m:[m261[36m:[m5[36m:[m [1m[31mF841[m local variable 'result' is assigned to but never used
+[1m.\integration_test.py[m[36m:[m262[36m:[m11[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\integration_test.py[m[36m:[m342[36m:[m80[36m:[m [1m[31mE501[m line too long (109 > 79 characters)
+[1m.\integration_test.py[m[36m:[m346[36m:[m5[36m:[m [1m[31mF841[m local variable 'shared' is assigned to but never used
+[1m.\integration_test.py[m[36m:[m347[36m:[m11[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\integration_test.py[m[36m:[m388[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\main.py[m[36m:[m7[36m:[m1[36m:[m [1m[31mF401[m 'sys' imported but unused
+[1m.\main.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'pathlib.Path' imported but unused
+[1m.\main.py[m[36m:[m11[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\main.py[m[36m:[m17[36m:[m1[36m:[m [1m[31mF401[m 'microgpt.model_zoo.create_model' imported but unused
+[1m.\main.py[m[36m:[m18[36m:[m1[36m:[m [1m[31mF401[m 'microgpt.tokenizers.create_tokenizer' imported but unused
+[1m.\main.py[m[36m:[m18[36m:[m1[36m:[m [1m[31mF401[m 'microgpt.tokenizers.list_tokenizers' imported but unused
+[1m.\main.py[m[36m:[m81[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\main.py[m[36m:[m86[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\main.py[m[36m:[m92[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\main.py[m[36m:[m96[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\main.py[m[36m:[m156[36m:[m80[36m:[m [1m[31mE501[m line too long (102 > 79 characters)
+[1m.\main.py[m[36m:[m267[36m:[m80[36m:[m [1m[31mE501[m line too long (110 > 79 characters)
+[1m.\main.py[m[36m:[m282[36m:[m5[36m:[m [1m[31mE741[m ambiguous variable name 'l'
+[1m.\main.py[m[36m:[m283[36m:[m5[36m:[m [1m[31mF841[m local variable 'h' is assigned to but never used
+[1m.\main.py[m[36m:[m290[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\main.py[m[36m:[m308[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m.\main.py[m[36m:[m311[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m.\main.py[m[36m:[m314[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m.\main.py[m[36m:[m317[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m.\main.py[m[36m:[m328[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\__init__.py[m[36m:[m81[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\__init__.py[m[36m:[m110[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\ab_testing.py[m[36m:[m45[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\ab_testing.py[m[36m:[m88[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\ab_testing.py[m[36m:[m96[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\ab_testing.py[m[36m:[m107[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\ab_testing.py[m[36m:[m116[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\ab_testing.py[m[36m:[m119[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\ab_testing.py[m[36m:[m141[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\ab_testing.py[m[36m:[m146[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\ab_testing.py[m[36m:[m152[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\advanced_features.py[m[36m:[m19[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\advanced_features.py[m[36m:[m44[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\advanced_features.py[m[36m:[m65[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\advanced_features.py[m[36m:[m125[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\advanced_features.py[m[36m:[m135[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\advanced_features.py[m[36m:[m138[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\advanced_features.py[m[36m:[m151[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\advanced_features.py[m[36m:[m177[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\advanced_features.py[m[36m:[m184[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\advanced_features.py[m[36m:[m202[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\advanced_features.py[m[36m:[m208[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\advanced_features.py[m[36m:[m216[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\advanced_features.py[m[36m:[m217[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\advanced_features.py[m[36m:[m220[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\advanced_features.py[m[36m:[m222[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\advanced_features.py[m[36m:[m254[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\advanced_features.py[m[36m:[m269[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\advanced_features.py[m[36m:[m286[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\advanced_features.py[m[36m:[m301[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\advanced_training.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\advanced_training.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Callable' imported but unused
+[1m.\microgpt\advanced_training.py[m[36m:[m63[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\advanced_training.py[m[36m:[m102[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\advanced_training.py[m[36m:[m223[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\advanced_training.py[m[36m:[m255[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\advanced_training.py[m[36m:[m263[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\advanced_training.py[m[36m:[m268[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\advanced_training.py[m[36m:[m269[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\advanced_training.py[m[36m:[m275[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\advanced_training.py[m[36m:[m279[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\advanced_training.py[m[36m:[m288[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\advanced_training.py[m[36m:[m292[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\advanced_training.py[m[36m:[m363[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\advanced_training.py[m[36m:[m368[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\advanced_training.py[m[36m:[m376[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\advanced_training.py[m[36m:[m378[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\agents.py[m[36m:[m48[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\agents.py[m[36m:[m74[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\agents.py[m[36m:[m107[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\agents.py[m[36m:[m203[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\agents.py[m[36m:[m243[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\api_server.py[m[36m:[m84[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\api_server.py[m[36m:[m155[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\api_server.py[m[36m:[m251[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\api_server.py[m[36m:[m253[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\api_server.py[m[36m:[m277[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\auto_ml.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\auto_ml.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'typing.Tuple' imported but unused
+[1m.\microgpt\auto_ml.py[m[36m:[m10[36m:[m1[36m:[m [1m[31mF401[m 'dataclasses.asdict' imported but unused
+[1m.\microgpt\auto_ml.py[m[36m:[m39[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\auto_ml.py[m[36m:[m42[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\auto_ml.py[m[36m:[m58[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\auto_ml.py[m[36m:[m88[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\auto_ml.py[m[36m:[m131[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\auto_ml.py[m[36m:[m134[36m:[m9[36m:[m [1m[31mF401[m 'sklearn.feature_selection.mutual_info_regression' imported but unused
+[1m.\microgpt\auto_ml.py[m[36m:[m142[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\auto_ml.py[m[36m:[m150[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\auto_ml.py[m[36m:[m165[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\benchmark.py[m[36m:[m72[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\benchmark.py[m[36m:[m120[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\benchmark.py[m[36m:[m130[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\benchmark.py[m[36m:[m174[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\benchmark.py[m[36m:[m195[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\benchmark.py[m[36m:[m212[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\benchmark.py[m[36m:[m215[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\benchmark.py[m[36m:[m216[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\benchmark.py[m[36m:[m229[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\benchmark.py[m[36m:[m271[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\benchmark_suite.py[m[36m:[m31[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\benchmark_suite.py[m[36m:[m42[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\benchmark_suite.py[m[36m:[m45[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\benchmark_suite.py[m[36m:[m54[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\benchmark_suite.py[m[36m:[m84[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\benchmark_suite.py[m[36m:[m92[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\benchmark_suite.py[m[36m:[m100[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\benchmark_suite.py[m[36m:[m107[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\benchmark_suite.py[m[36m:[m116[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\benchmark_suite.py[m[36m:[m138[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\benchmark_suite.py[m[36m:[m154[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\benchmark_suite.py[m[36m:[m159[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\benchmark_suite.py[m[36m:[m162[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\benchmark_suite.py[m[36m:[m183[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\benchmark_suite.py[m[36m:[m187[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\benchmark_suite.py[m[36m:[m194[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\benchmark_suite.py[m[36m:[m219[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\bio_inspired.py[m[36m:[m7[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\bio_inspired.py[m[36m:[m30[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\bio_inspired.py[m[36m:[m157[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\bio_inspired.py[m[36m:[m165[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\bio_inspired.py[m[36m:[m192[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\bio_inspired.py[m[36m:[m253[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\bio_inspired.py[m[36m:[m269[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\chat.py[m[36m:[m26[36m:[m62[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\chat.py[m[36m:[m44[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\chat.py[m[36m:[m110[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\chat.py[m[36m:[m112[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\chat.py[m[36m:[m159[36m:[m80[36m:[m [1m[31mE501[m line too long (107 > 79 characters)
+[1m.\microgpt\chat.py[m[36m:[m160[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\chat.py[m[36m:[m161[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\chat.py[m[36m:[m162[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\chat.py[m[36m:[m163[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\chat.py[m[36m:[m167[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\chat.py[m[36m:[m183[36m:[m63[36m:[m [1m[31mW291[m trailing whitespace
+[1m.\microgpt\chat.py[m[36m:[m184[36m:[m53[36m:[m [1m[31mW291[m trailing whitespace
+[1m.\microgpt\chat.py[m[36m:[m261[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\chat.py[m[36m:[m262[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\checkpoint.py[m[36m:[m20[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\checkpoint.py[m[36m:[m53[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\checkpoint.py[m[36m:[m80[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\checkpoint.py[m[36m:[m103[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'pathlib.Path' imported but unused
+[1m.\microgpt\cli.py[m[36m:[m14[36m:[m1[36m:[m [1m[31mF401[m '.data.CharTokenizer' imported but unused
+[1m.\microgpt\cli.py[m[36m:[m14[36m:[m1[36m:[m [1m[31mF401[m '.data.BPETokenizer' imported but unused
+[1m.\microgpt\cli.py[m[36m:[m48[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m76[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m82[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m87[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m88[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m110[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m182[36m:[m80[36m:[m [1m[31mE501[m line too long (123 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m218[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m284[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m314[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m.\microgpt\cli.py[m[36m:[m317[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m.\microgpt\cli.py[m[36m:[m320[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m.\microgpt\cli.py[m[36m:[m330[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m332[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m336[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m341[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m343[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m345[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m346[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m347[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m348[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m349[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m351[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m355[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m357[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\cli.py[m[36m:[m360[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\compression.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Tuple' imported but unused
+[1m.\microgpt\compression.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\compression.py[m[36m:[m36[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\compression.py[m[36m:[m71[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\compression.py[m[36m:[m102[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\compression.py[m[36m:[m116[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\compression.py[m[36m:[m123[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\compression.py[m[36m:[m129[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\compression.py[m[36m:[m132[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\compression.py[m[36m:[m146[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\compression.py[m[36m:[m148[36m:[m19[36m:[m [1m[31mF821[m undefined name 'l'
+[1m.\microgpt\compression.py[m[36m:[m169[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\compression.py[m[36m:[m172[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\compression.py[m[36m:[m175[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\compression.py[m[36m:[m203[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\compression.py[m[36m:[m255[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\compression.py[m[36m:[m275[36m:[m18[36m:[m [1m[31mF821[m undefined name 'l'
+[1m.\microgpt\compression.py[m[36m:[m283[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\compression.py[m[36m:[m301[36m:[m22[36m:[m [1m[31mF821[m undefined name 'l'
+[1m.\microgpt\compression.py[m[36m:[m321[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\config.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\config_validator.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Tuple' imported but unused
+[1m.\microgpt\config_validator.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\config_validator.py[m[36m:[m119[36m:[m80[36m:[m [1m[31mE501[m line too long (102 > 79 characters)
+[1m.\microgpt\config_validator.py[m[36m:[m127[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\config_validator.py[m[36m:[m161[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\config_validator.py[m[36m:[m162[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\config_validator.py[m[36m:[m179[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\config_validator.py[m[36m:[m183[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\config_validator.py[m[36m:[m192[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\config_validator.py[m[36m:[m199[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\config_validator.py[m[36m:[m200[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\config_validator.py[m[36m:[m207[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\config_validator.py[m[36m:[m231[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\config_validator.py[m[36m:[m235[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\config_validator.py[m[36m:[m236[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\config_validator.py[m[36m:[m245[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\config_validator.py[m[36m:[m257[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\config_validator.py[m[36m:[m260[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\config_validator.py[m[36m:[m268[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\config_validator.py[m[36m:[m286[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\data.py[m[36m:[m11[36m:[m1[36m:[m [1m[31mF401[m 'pathlib.Path' imported but unused
+[1m.\microgpt\data.py[m[36m:[m35[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\data.py[m[36m:[m59[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\data.py[m[36m:[m64[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\data.py[m[36m:[m100[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\data.py[m[36m:[m120[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\data.py[m[36m:[m136[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\data.py[m[36m:[m149[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\data.py[m[36m:[m159[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\data.py[m[36m:[m171[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\data.py[m[36m:[m176[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\data.py[m[36m:[m183[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\data.py[m[36m:[m189[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\data.py[m[36m:[m210[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\data.py[m[36m:[m231[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\data.py[m[36m:[m237[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\data_pipeline.py[m[36m:[m7[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\data_pipeline.py[m[36m:[m29[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\data_pipeline.py[m[36m:[m147[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\data_pipeline.py[m[36m:[m165[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\data_pipeline.py[m[36m:[m167[36m:[m43[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\data_pipeline.py[m[36m:[m189[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\data_pipeline.py[m[36m:[m198[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\data_pipeline.py[m[36m:[m208[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\deployment_guide.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'typing.List' imported but unused
+[1m.\microgpt\deployment_guide.py[m[36m:[m210[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\deployment_guide.py[m[36m:[m267[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m.\microgpt\deployment_guide.py[m[36m:[m271[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m.\microgpt\deployment_guide.py[m[36m:[m277[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m.\microgpt\deployment_guide.py[m[36m:[m333[36m:[m13[36m:[m [1m[31mF401[m 'microgpt' imported but unused
+[1m.\microgpt\deployment_guide.py[m[36m:[m334[36m:[m13[36m:[m [1m[31mF401[m 'model' imported but unused
+[1m.\microgpt\distributed.py[m[36m:[m48[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\distributed.py[m[36m:[m83[36m:[m13[36m:[m [1m[31mF841[m local variable 'keys' is assigned to but never used
+[1m.\microgpt\distributed.py[m[36m:[m84[36m:[m13[36m:[m [1m[31mF841[m local variable 'values' is assigned to but never used
+[1m.\microgpt\distributed.py[m[36m:[m140[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\distributed.py[m[36m:[m148[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\distributed.py[m[36m:[m157[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\distributed.py[m[36m:[m209[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\distributed.py[m[36m:[m220[36m:[m13[36m:[m [1m[31mF841[m local variable 'tokens' is assigned to but never used
+[1m.\microgpt\distributed.py[m[36m:[m257[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\distributed.py[m[36m:[m267[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\distributed.py[m[36m:[m286[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\distributed.py[m[36m:[m302[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\distributed.py[m[36m:[m307[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\distributed.py[m[36m:[m314[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\distributed.py[m[36m:[m328[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\evaluation.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Tuple' imported but unused
+[1m.\microgpt\evaluation.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\evaluation.py[m[36m:[m70[36m:[m38[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\evaluation.py[m[36m:[m70[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\evaluation.py[m[36m:[m106[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\evaluation.py[m[36m:[m180[36m:[m39[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\evaluation.py[m[36m:[m198[36m:[m33[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\evaluation.py[m[36m:[m322[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\evaluation.py[m[36m:[m332[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\evaluation.py[m[36m:[m333[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\evaluation.py[m[36m:[m337[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\experiment_tracker.py[m[36m:[m63[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\experiment_tracker.py[m[36m:[m104[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\experiment_tracker.py[m[36m:[m105[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\experiment_tracker.py[m[36m:[m121[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\experiment_tracker.py[m[36m:[m150[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\experiment_tracker.py[m[36m:[m161[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\experiment_tracker.py[m[36m:[m162[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\experiment_tracker.py[m[36m:[m171[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\experiment_tracker.py[m[36m:[m174[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\experiment_tracker.py[m[36m:[m183[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\experiment_tracker.py[m[36m:[m187[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\experiment_tracker.py[m[36m:[m203[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\experiment_tracker.py[m[36m:[m207[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\experiment_tracker.py[m[36m:[m230[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\export.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.List' imported but unused
+[1m.\microgpt\export.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\export.py[m[36m:[m55[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\export.py[m[36m:[m79[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\export.py[m[36m:[m93[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\export.py[m[36m:[m107[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\export.py[m[36m:[m123[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\export.py[m[36m:[m128[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\export.py[m[36m:[m139[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\export.py[m[36m:[m173[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\export.py[m[36m:[m183[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\export.py[m[36m:[m194[36m:[m9[36m:[m [1m[31mF401[m 'model.Value' imported but unused
+[1m.\microgpt\export.py[m[36m:[m223[36m:[m9[36m:[m [1m[31mF401[m 'model.Value' imported but unused
+[1m.\microgpt\export.py[m[36m:[m248[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\export.py[m[36m:[m253[36m:[m9[36m:[m [1m[31mF401[m 'model.Value' imported but unused
+[1m.\microgpt\export.py[m[36m:[m281[36m:[m9[36m:[m [1m[31mF401[m 'torch' imported but unused
+[1m.\microgpt\export.py[m[36m:[m285[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\feature_store.py[m[36m:[m48[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\feature_store.py[m[36m:[m74[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\feature_store.py[m[36m:[m97[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\feature_store.py[m[36m:[m233[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\finetune.py[m[36m:[m7[36m:[m1[36m:[m [1m[31mF401[m 'pathlib.Path' imported but unused
+[1m.\microgpt\finetune.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.List' imported but unused
+[1m.\microgpt\finetune.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\finetune.py[m[36m:[m13[36m:[m1[36m:[m [1m[31mF401[m '.config.Config' imported but unused
+[1m.\microgpt\finetune.py[m[36m:[m49[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\finetune.py[m[36m:[m95[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\finetune.py[m[36m:[m138[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\finetune.py[m[36m:[m204[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\finetune.py[m[36m:[m209[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\finetune.py[m[36m:[m223[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\finetune.py[m[36m:[m226[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\finetune.py[m[36m:[m228[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\finetune.py[m[36m:[m230[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\finetune.py[m[36m:[m233[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\finetune.py[m[36m:[m235[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\finetune.py[m[36m:[m236[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\finetune.py[m[36m:[m238[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\fractal_network.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Dict' imported but unused
+[1m.\microgpt\fractal_network.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Any' imported but unused
+[1m.\microgpt\fractal_network.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\fractal_network.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Tuple' imported but unused
+[1m.\microgpt\fractal_network.py[m[36m:[m54[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\fractal_network.py[m[36m:[m62[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\fractal_network.py[m[36m:[m86[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\fractal_network.py[m[36m:[m98[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\fractal_network.py[m[36m:[m121[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\fractal_network.py[m[36m:[m141[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\fractal_network.py[m[36m:[m161[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\fractal_network.py[m[36m:[m175[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m13[36m:[m1[36m:[m [1m[31mF401[m 'dataclasses.field' imported but unused
+[1m.\microgpt\hrm_adapter.py[m[36m:[m14[36m:[m1[36m:[m [1m[31mF401[m '.microgpt.gelu' imported but unused
+[1m.\microgpt\hrm_adapter.py[m[36m:[m63[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m66[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m69[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m72[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m78[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m81[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m84[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m91[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m99[36m:[m39[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\hrm_adapter.py[m[36m:[m99[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m100[36m:[m39[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\hrm_adapter.py[m[36m:[m100[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m101[36m:[m39[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\hrm_adapter.py[m[36m:[m101[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m114[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m144[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m163[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m168[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m214[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m216[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m222[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m223[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m226[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m227[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m236[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m237[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m242[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m244[36m:[m9[36m:[m [1m[31mF841[m local variable 'batch_size' is assigned to but never used
+[1m.\microgpt\hrm_adapter.py[m[36m:[m250[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m269[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m275[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m306[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m308[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m317[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m340[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m362[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m380[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m387[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m399[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m447[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\hrm_adapter.py[m[36m:[m520[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m3[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Dict' imported but unused
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Tuple' imported but unused
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Any' imported but unused
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Callable' imported but unused
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'dataclasses.asdict' imported but unused
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m102[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m105[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m108[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m111[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m117[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m120[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m123[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m135[36m:[m9[36m:[m [1m[31mF401[m 'microgpt.rmsnorm' imported but unused
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m143[36m:[m39[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m143[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m144[36m:[m39[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m144[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m145[36m:[m39[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m145[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m158[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m177[36m:[m9[36m:[m [1m[31mF401[m 'microgpt.Value' imported but unused
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m188[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m244[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m245[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m261[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m298[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m306[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m310[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m321[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m322[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m332[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m335[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m341[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m363[36m:[m9[36m:[m [1m[31mF401[m 'microgpt.linear' imported but unused
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m368[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m377[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m379[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m387[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m395[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m396[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m397[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m403[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m404[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m405[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m441[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m447[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m484[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m487[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m490[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m491[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m496[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m507[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m593[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m616[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m623[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m646[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m652[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\hrm_enhanced.py[m[36m:[m672[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\hyperparameter_tuner.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\hyperparameter_tuner.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'typing.Tuple' imported but unused
+[1m.\microgpt\hyperparameter_tuner.py[m[36m:[m11[36m:[m1[36m:[m [1m[31mF401[m 'pathlib.Path' imported but unused
+[1m.\microgpt\hyperparameter_tuner.py[m[36m:[m45[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\hyperparameter_tuner.py[m[36m:[m53[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\hyperparameter_tuner.py[m[36m:[m75[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\hyperparameter_tuner.py[m[36m:[m92[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\hyperparameter_tuner.py[m[36m:[m102[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\hyperparameter_tuner.py[m[36m:[m121[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\hyperparameter_tuner.py[m[36m:[m135[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\hyperparameter_tuner.py[m[36m:[m136[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\hyperparameter_tuner.py[m[36m:[m171[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\hyperparameter_tuner.py[m[36m:[m172[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\hyperparameter_tuner.py[m[36m:[m190[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\inference_optimizations.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Set' imported but unused
+[1m.\microgpt\inference_optimizations.py[m[36m:[m34[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\inference_optimizations.py[m[36m:[m71[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\inference_optimizations.py[m[36m:[m80[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\inference_optimizations.py[m[36m:[m96[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\inference_optimizations.py[m[36m:[m113[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\inference_optimizations.py[m[36m:[m140[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\inference_optimizations.py[m[36m:[m176[36m:[m36[36m:[m [1m[31mF821[m undefined name 'l'
+[1m.\microgpt\inference_optimizations.py[m[36m:[m176[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\inference_optimizations.py[m[36m:[m186[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\inference_optimizations.py[m[36m:[m204[36m:[m26[36m:[m [1m[31mF821[m undefined name 'l'
+[1m.\microgpt\inference_optimizations.py[m[36m:[m216[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\inference_optimizations.py[m[36m:[m226[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\inference_optimizations.py[m[36m:[m247[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\inference_optimizations.py[m[36m:[m248[36m:[m36[36m:[m [1m[31mF821[m undefined name 'l'
+[1m.\microgpt\inference_optimizations.py[m[36m:[m273[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\inference_optimizations.py[m[36m:[m276[36m:[m43[36m:[m [1m[31mF821[m undefined name 'l'
+[1m.\microgpt\inference_optimizations.py[m[36m:[m286[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\inference_optimizations.py[m[36m:[m291[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\inference_optimizations.py[m[36m:[m302[36m:[m26[36m:[m [1m[31mF821[m undefined name 'l'
+[1m.\microgpt\inference_optimizations.py[m[36m:[m306[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\inference_optimizations.py[m[36m:[m309[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\inference_optimizations.py[m[36m:[m358[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\inference_optimizations.py[m[36m:[m425[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\inference_optimizations.py[m[36m:[m444[36m:[m13[36m:[m [1m[31mF841[m local variable 'attend_positions' is assigned to but never used
+[1m.\microgpt\inference_optimizations.py[m[36m:[m458[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\inference_optimizations.py[m[36m:[m467[36m:[m22[36m:[m [1m[31mF821[m undefined name 'l'
+[1m.\microgpt\interpretability.py[m[36m:[m3[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\interpretability.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\interpretability.py[m[36m:[m10[36m:[m1[36m:[m [1m[31mF401[m '.model.Value' imported but unused
+[1m.\microgpt\interpretability.py[m[36m:[m51[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\interpretability.py[m[36m:[m59[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\interpretability.py[m[36m:[m78[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\interpretability.py[m[36m:[m82[36m:[m9[36m:[m [1m[31mF841[m local variable 'attentions' is assigned to but never used
+[1m.\microgpt\interpretability.py[m[36m:[m91[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\interpretability.py[m[36m:[m119[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\interpretability.py[m[36m:[m121[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\interpretability.py[m[36m:[m133[36m:[m13[36m:[m [1m[31mF841[m local variable 'logits' is assigned to but never used
+[1m.\microgpt\interpretability.py[m[36m:[m157[36m:[m49[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\interpretability.py[m[36m:[m192[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\interpretability.py[m[36m:[m197[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\interpretability.py[m[36m:[m213[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\interpretability.py[m[36m:[m223[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\interpretability.py[m[36m:[m230[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\interpretability.py[m[36m:[m234[36m:[m34[36m:[m [1m[31mF821[m undefined name 'l'
+[1m.\microgpt\interpretability.py[m[36m:[m252[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\interpretability.py[m[36m:[m259[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\interpretability.py[m[36m:[m294[36m:[m20[36m:[m [1m[31mF821[m undefined name 'l'
+[1m.\microgpt\interpretability.py[m[36m:[m306[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\interpretability.py[m[36m:[m369[36m:[m5[36m:[m [1m[31mF841[m local variable 'prober' is assigned to but never used
+[1m.\microgpt\logger.py[m[36m:[m32[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\logger.py[m[36m:[m46[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\logger.py[m[36m:[m121[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\memory_efficient.py[m[36m:[m7[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\memory_efficient.py[m[36m:[m7[36m:[m1[36m:[m [1m[31mF401[m 'typing.Tuple' imported but unused
+[1m.\microgpt\memory_efficient.py[m[36m:[m60[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\memory_efficient.py[m[36m:[m68[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\memory_efficient.py[m[36m:[m69[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\memory_efficient.py[m[36m:[m77[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\memory_efficient.py[m[36m:[m82[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\memory_efficient.py[m[36m:[m86[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\memory_efficient.py[m[36m:[m88[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\memory_efficient.py[m[36m:[m96[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\memory_efficient.py[m[36m:[m128[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\memory_efficient.py[m[36m:[m148[36m:[m33[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\memory_efficient.py[m[36m:[m160[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\memory_efficient.py[m[36m:[m176[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\memory_efficient.py[m[36m:[m213[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\memory_efficient.py[m[36m:[m221[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\memory_efficient.py[m[36m:[m223[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\memory_efficient.py[m[36m:[m234[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\memory_efficient.py[m[36m:[m245[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\memory_efficient.py[m[36m:[m299[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\memory_efficient.py[m[36m:[m320[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\memory_efficient.py[m[36m:[m321[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\memory_efficient.py[m[36m:[m374[36m:[m24[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\memory_efficient.py[m[36m:[m376[36m:[m49[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\memory_efficient.py[m[36m:[m376[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m2[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m19[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m25[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m26[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m32[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m42[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m43[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m44[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m45[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m53[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m56[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m110[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m114[36m:[m1[36m:[m [1m[31mE731[m do not assign a lambda expression, use a def
+[1m.\microgpt\microgpt.py[m[36m:[m135[36m:[m80[36m:[m [1m[31mE501[m line too long (104 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m136[36m:[m80[36m:[m [1m[31mE501[m line too long (109 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m157[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m158[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m172[36m:[m23[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\microgpt.py[m[36m:[m173[36m:[m25[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\microgpt.py[m[36m:[m174[36m:[m25[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\microgpt.py[m[36m:[m176[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m181[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m207[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m212[36m:[m80[36m:[m [1m[31mE501[m line too long (109 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m221[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m223[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m226[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m236[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m239[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\microgpt.py[m[36m:[m248[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\microgpt_hrm_integration.py[m[36m:[m11[36m:[m1[36m:[m [1m[31mF401[m '.hrm_adapter.HRMCarry' imported but unused
+[1m.\microgpt\microgpt_hrm_integration.py[m[36m:[m85[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\microgpt_hrm_integration.py[m[36m:[m89[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\microgpt_hrm_integration.py[m[36m:[m93[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\microgpt_hrm_integration.py[m[36m:[m97[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\microgpt_hrm_integration.py[m[36m:[m101[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\microgpt_hrm_integration.py[m[36m:[m105[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\microgpt_hrm_integration.py[m[36m:[m126[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\microgpt_hrm_integration.py[m[36m:[m130[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\microgpt_hrm_integration.py[m[36m:[m149[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\microgpt_hrm_integration.py[m[36m:[m167[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\microgpt_hrm_integration.py[m[36m:[m241[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\microgpt_hrm_integration.py[m[36m:[m251[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\microgpt_hrm_integration.py[m[36m:[m341[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\microgpt_hrm_integration.py[m[36m:[m353[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\microgpt_hrm_integration.py[m[36m:[m359[36m:[m23[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\microgpt_hrm_integration.py[m[36m:[m375[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m10[36m:[m1[36m:[m [1m[31mF401[m 'typing.Callable' imported but unused
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m10[36m:[m1[36m:[m [1m[31mF401[m 'typing.Tuple' imported but unused
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m11[36m:[m1[36m:[m [1m[31mF401[m 'dataclasses.field' imported but unused
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m15[36m:[m1[36m:[m [1m[31mF401[m '.microgpt.cross_entropy' imported but unused
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m15[36m:[m1[36m:[m [1m[31mF401[m '.microgpt.gelu' imported but unused
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m15[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m18[36m:[m1[36m:[m [1m[31mF401[m '.openclaw_adapter.Session' imported but unused
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m18[36m:[m1[36m:[m [1m[31mF401[m '.openclaw_adapter.SessionManager' imported but unused
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m18[36m:[m1[36m:[m [1m[31mF401[m '.openclaw_adapter.AuthProfile' imported but unused
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m18[36m:[m1[36m:[m [1m[31mF401[m '.openclaw_adapter.AuthProfileStore' imported but unused
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m18[36m:[m1[36m:[m [1m[31mF401[m '.openclaw_adapter.ThinkLevel' imported but unused
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m60[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m82[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m102[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m103[36m:[m9[36m:[m [1m[31mF841[m local variable 'head_dim' is assigned to but never used
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m108[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m111[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m118[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m121[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m124[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m127[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m133[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m136[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m139[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m149[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m154[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m161[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m174[36m:[m38[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m174[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m175[36m:[m38[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m175[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m176[36m:[m38[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m176[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m188[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m216[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m234[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m258[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m290[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m313[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m324[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m341[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m361[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m446[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m458[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m465[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m476[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m479[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m482[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m483[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m485[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\microgpt_openclaw_integration.py[m[36m:[m487[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\model.py[m[36m:[m28[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\model.py[m[36m:[m31[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\model.py[m[36m:[m53[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\model.py[m[36m:[m111[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\model.py[m[36m:[m187[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\model.py[m[36m:[m188[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\model.py[m[36m:[m189[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\model.py[m[36m:[m190[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\model.py[m[36m:[m193[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\model.py[m[36m:[m194[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\model.py[m[36m:[m198[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\model.py[m[36m:[m202[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\model.py[m[36m:[m248[36m:[m27[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\model.py[m[36m:[m249[36m:[m29[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\model.py[m[36m:[m250[36m:[m29[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\model.py[m[36m:[m254[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\model.py[m[36m:[m328[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\model.py[m[36m:[m336[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\model.py[m[36m:[m342[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\model_analyzer.py[m[36m:[m6[36m:[m1[36m:[m [1m[31mF401[m 'typing.Tuple' imported but unused
+[1m.\microgpt\model_analyzer.py[m[36m:[m49[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\model_analyzer.py[m[36m:[m53[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\model_analyzer.py[m[36m:[m64[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\model_analyzer.py[m[36m:[m85[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\model_analyzer.py[m[36m:[m91[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\model_analyzer.py[m[36m:[m99[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\model_analyzer.py[m[36m:[m137[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\model_analyzer.py[m[36m:[m141[36m:[m80[36m:[m [1m[31mE501[m line too long (110 > 79 characters)
+[1m.\microgpt\model_analyzer.py[m[36m:[m147[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\model_analyzer.py[m[36m:[m152[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\model_analyzer.py[m[36m:[m157[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\model_analyzer.py[m[36m:[m163[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\model_analyzer.py[m[36m:[m176[36m:[m15[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\microgpt\model_analyzer.py[m[36m:[m181[36m:[m15[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\microgpt\model_analyzer.py[m[36m:[m187[36m:[m15[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\microgpt\model_analyzer.py[m[36m:[m192[36m:[m19[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\microgpt\model_analyzer.py[m[36m:[m222[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\model_analyzer.py[m[36m:[m223[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\model_analyzer.py[m[36m:[m236[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\model_comparison.py[m[36m:[m7[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\model_comparison.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'dataclasses.asdict' imported but unused
+[1m.\microgpt\model_comparison.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'pathlib.Path' imported but unused
+[1m.\microgpt\model_comparison.py[m[36m:[m30[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\model_comparison.py[m[36m:[m48[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\model_comparison.py[m[36m:[m51[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\model_comparison.py[m[36m:[m65[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\model_comparison.py[m[36m:[m80[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\model_comparison.py[m[36m:[m83[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\model_comparison.py[m[36m:[m90[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\model_comparison.py[m[36m:[m91[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\model_comparison.py[m[36m:[m93[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\model_comparison.py[m[36m:[m114[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\model_comparison.py[m[36m:[m129[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\model_comparison.py[m[36m:[m130[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\model_comparison.py[m[36m:[m132[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\model_comparison.py[m[36m:[m150[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\model_comparison.py[m[36m:[m165[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\model_merging.py[m[36m:[m7[36m:[m1[36m:[m [1m[31mF401[m 'typing.Tuple' imported but unused
+[1m.\microgpt\model_merging.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m '.model.Value' imported but unused
+[1m.\microgpt\model_merging.py[m[36m:[m17[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\model_merging.py[m[36m:[m46[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\model_merging.py[m[36m:[m79[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\model_merging.py[m[36m:[m101[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\model_merging.py[m[36m:[m102[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\model_merging.py[m[36m:[m151[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\model_merging.py[m[36m:[m162[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\model_merging.py[m[36m:[m175[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\model_merging.py[m[36m:[m221[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\model_merging.py[m[36m:[m248[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\model_merging.py[m[36m:[m295[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\model_merging.py[m[36m:[m365[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\model_merging.py[m[36m:[m371[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\model_merging.py[m[36m:[m394[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\model_merging.py[m[36m:[m396[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\model_merging.py[m[36m:[m406[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\model_registry.py[m[36m:[m46[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\model_registry.py[m[36m:[m52[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\model_registry.py[m[36m:[m68[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\model_registry.py[m[36m:[m90[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\model_registry.py[m[36m:[m112[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\model_registry.py[m[36m:[m120[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\model_registry.py[m[36m:[m126[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\model_registry.py[m[36m:[m153[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\model_registry.py[m[36m:[m158[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\model_registry.py[m[36m:[m166[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\model_registry.py[m[36m:[m170[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\model_registry.py[m[36m:[m180[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\model_registry.py[m[36m:[m190[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\model_registry.py[m[36m:[m192[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\model_registry.py[m[36m:[m240[36m:[m19[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\microgpt\model_registry.py[m[36m:[m244[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\model_registry.py[m[36m:[m279[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\model_server.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\model_server.py[m[36m:[m11[36m:[m1[36m:[m [1m[31mF401[m 'collections.deque' imported but unused
+[1m.\microgpt\model_server.py[m[36m:[m144[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\model_server.py[m[36m:[m151[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\model_server.py[m[36m:[m202[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\model_server.py[m[36m:[m215[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\model_zoo.py[m[36m:[m26[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\model_zoo.py[m[36m:[m50[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\model_zoo.py[m[36m:[m74[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\model_zoo.py[m[36m:[m98[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\model_zoo.py[m[36m:[m115[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\model_zoo.py[m[36m:[m117[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\model_zoo.py[m[36m:[m140[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\model_zoo.py[m[36m:[m163[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\model_zoo.py[m[36m:[m174[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\model_zoo.py[m[36m:[m201[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\model_zoo.py[m[36m:[m235[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\model_zoo.py[m[36m:[m237[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\modern_architecture.py[m[36m:[m2[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\modern_architecture.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\modern_architecture.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m '.model.rmsnorm' imported but unused
+[1m.\microgpt\modern_architecture.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m '.model.softmax' imported but unused
+[1m.\microgpt\modern_architecture.py[m[36m:[m19[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\modern_architecture.py[m[36m:[m79[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\modern_architecture.py[m[36m:[m193[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\modern_architecture.py[m[36m:[m222[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\modern_architecture.py[m[36m:[m227[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\modern_architecture.py[m[36m:[m233[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\modern_architecture.py[m[36m:[m270[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\modern_architecture.py[m[36m:[m271[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\modern_architecture.py[m[36m:[m296[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\monitoring.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'typing.Any' imported but unused
+[1m.\microgpt\monitoring.py[m[36m:[m10[36m:[m1[36m:[m [1m[31mF401[m 'dataclasses.asdict' imported but unused
+[1m.\microgpt\monitoring.py[m[36m:[m12[36m:[m1[36m:[m [1m[31mF401[m 'pathlib.Path' imported but unused
+[1m.\microgpt\monitoring.py[m[36m:[m39[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\monitoring.py[m[36m:[m71[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\monitoring.py[m[36m:[m100[36m:[m9[36m:[m [1m[31mF841[m local variable 'e' is assigned to but never used
+[1m.\microgpt\monitoring.py[m[36m:[m122[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\monitoring.py[m[36m:[m163[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\monitoring.py[m[36m:[m200[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\monitoring.py[m[36m:[m211[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\monitoring.py[m[36m:[m224[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\multimodal.py[m[36m:[m7[36m:[m1[36m:[m [1m[31mF401[m 'typing.Dict' imported but unused
+[1m.\microgpt\multimodal.py[m[36m:[m18[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\multimodal.py[m[36m:[m34[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\multimodal.py[m[36m:[m41[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\multimodal.py[m[36m:[m42[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\multimodal.py[m[36m:[m71[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\multimodal.py[m[36m:[m113[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\multimodal.py[m[36m:[m120[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\multimodal.py[m[36m:[m132[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\multimodal.py[m[36m:[m142[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\multimodal.py[m[36m:[m217[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\multimodal.py[m[36m:[m328[36m:[m20[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\microgpt\multimodal.py[m[36m:[m328[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\multimodal.py[m[36m:[m379[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\multimodal.py[m[36m:[m392[36m:[m9[36m:[m [1m[31mF841[m local variable 'context_str' is assigned to but never used
+[1m.\microgpt\multimodal.py[m[36m:[m393[36m:[m9[36m:[m [1m[31mF841[m local variable 'prompt' is assigned to but never used
+[1m.\microgpt\multimodal.py[m[36m:[m400[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\multimodal.py[m[36m:[m411[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\multimodal.py[m[36m:[m414[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\multimodal.py[m[36m:[m416[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\multimodal.py[m[36m:[m423[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\omni_system.py[m[36m:[m7[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\omni_system.py[m[36m:[m10[36m:[m1[36m:[m [1m[31mF401[m '.bio_inspired.Genome' imported but unused
+[1m.\microgpt\omni_system.py[m[36m:[m53[36m:[m9[36m:[m [1m[31mF401[m 'bio_inspired.NeuralPhenotype' imported but unused
+[1m.\microgpt\omni_system.py[m[36m:[m53[36m:[m9[36m:[m [1m[31mF811[m redefinition of unused 'Genome' from line 10
+[1m.\microgpt\omni_system.py[m[36m:[m70[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\omni_system.py[m[36m:[m79[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\omni_system.py[m[36m:[m151[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\omni_system.py[m[36m:[m180[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\omni_system.py[m[36m:[m193[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\omni_system.py[m[36m:[m248[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\omni_system.py[m[36m:[m287[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\omni_system.py[m[36m:[m294[36m:[m11[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\microgpt\omni_system.py[m[36m:[m296[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\openclaw_adapter.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'typing.Tuple' imported but unused
+[1m.\microgpt\openclaw_adapter.py[m[36m:[m102[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\openclaw_adapter.py[m[36m:[m166[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\openclaw_adapter.py[m[36m:[m168[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\openclaw_adapter.py[m[36m:[m267[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\openclaw_adapter.py[m[36m:[m283[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\openclaw_adapter.py[m[36m:[m294[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\openclaw_adapter.py[m[36m:[m328[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\openclaw_adapter.py[m[36m:[m420[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\openclaw_adapter.py[m[36m:[m474[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\openclaw_enhanced.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'typing.AsyncIterator' imported but unused
+[1m.\microgpt\openclaw_enhanced.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'typing.Union' imported but unused
+[1m.\microgpt\openclaw_enhanced.py[m[36m:[m9[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\openclaw_enhanced.py[m[36m:[m249[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\openclaw_enhanced.py[m[36m:[m254[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\openclaw_enhanced.py[m[36m:[m270[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\openclaw_enhanced.py[m[36m:[m272[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\openclaw_enhanced.py[m[36m:[m332[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\openclaw_enhanced.py[m[36m:[m342[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\openclaw_enhanced.py[m[36m:[m426[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\openclaw_enhanced.py[m[36m:[m430[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\openclaw_enhanced.py[m[36m:[m432[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\openclaw_enhanced.py[m[36m:[m442[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\openclaw_enhanced.py[m[36m:[m505[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\openclaw_enhanced.py[m[36m:[m588[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\openclaw_enhanced.py[m[36m:[m618[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\openclaw_enhanced.py[m[36m:[m627[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\openclaw_enhanced.py[m[36m:[m686[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\orchestrator.py[m[36m:[m10[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\orchestrator.py[m[36m:[m10[36m:[m1[36m:[m [1m[31mF401[m 'typing.Callable' imported but unused
+[1m.\microgpt\orchestrator.py[m[36m:[m70[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\orchestrator.py[m[36m:[m78[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\orchestrator.py[m[36m:[m79[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\orchestrator.py[m[36m:[m190[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\orchestrator.py[m[36m:[m198[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\orchestrator.py[m[36m:[m289[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\orchestrator.py[m[36m:[m290[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\orchestrator.py[m[36m:[m292[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\orchestrator.py[m[36m:[m293[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\performance_profiler.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'typing.Callable' imported but unused
+[1m.\microgpt\performance_profiler.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\performance_profiler.py[m[36m:[m10[36m:[m1[36m:[m [1m[31mF401[m 'dataclasses.field' imported but unused
+[1m.\microgpt\performance_profiler.py[m[36m:[m82[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\performance_profiler.py[m[36m:[m90[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\performance_profiler.py[m[36m:[m138[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\performance_profiler.py[m[36m:[m140[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\performance_profiler.py[m[36m:[m146[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\performance_profiler.py[m[36m:[m186[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\performance_profiler.py[m[36m:[m202[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\perpetual_probabilities.py[m[36m:[m76[36m:[m31[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\perpetual_probabilities.py[m[36m:[m86[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\perpetual_probabilities.py[m[36m:[m139[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\perpetual_probabilities.py[m[36m:[m154[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\perpetual_probabilities.py[m[36m:[m166[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\perpetual_probabilities.py[m[36m:[m170[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\perpetual_probabilities.py[m[36m:[m173[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\perpetual_probabilities.py[m[36m:[m228[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\perpetual_probabilities.py[m[36m:[m247[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\perpetual_probabilities.py[m[36m:[m268[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\perpetual_probabilities.py[m[36m:[m316[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\perpetual_probabilities.py[m[36m:[m333[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\perpetual_probabilities.py[m[36m:[m358[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\perpetual_probabilities.py[m[36m:[m380[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\pretrain.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'typing.List' imported but unused
+[1m.\microgpt\pretrain.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\pretrain.py[m[36m:[m13[36m:[m1[36m:[m [1m[31mF401[m '.trainer.TrainingConfig' imported but unused
+[1m.\microgpt\pretrain.py[m[36m:[m36[36m:[m29[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\pretrain.py[m[36m:[m46[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\pretrain.py[m[36m:[m73[36m:[m11[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\microgpt\pretrain.py[m[36m:[m77[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\pretrain.py[m[36m:[m82[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\pretrain.py[m[36m:[m122[36m:[m13[36m:[m [1m[31mF841[m local variable 'start_step' is assigned to but never used
+[1m.\microgpt\pretrain.py[m[36m:[m148[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\pretrain.py[m[36m:[m154[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\pretrain.py[m[36m:[m160[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\pretrain.py[m[36m:[m161[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\pretrain.py[m[36m:[m182[36m:[m5[36m:[m [1m[31mF841[m local variable 'summary' is assigned to but never used
+[1m.\microgpt\pretrain.py[m[36m:[m195[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\pretrain.py[m[36m:[m197[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\pretrain.py[m[36m:[m201[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\pretrain.py[m[36m:[m203[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\profiling.py[m[36m:[m7[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\profiling.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'collections.defaultdict' imported but unused
+[1m.\microgpt\profiling.py[m[36m:[m88[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\profiling.py[m[36m:[m118[36m:[m9[36m:[m [1m[31mF401[m 'sys' imported but unused
+[1m.\microgpt\profiling.py[m[36m:[m128[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\profiling.py[m[36m:[m147[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\profiling.py[m[36m:[m148[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\profiling.py[m[36m:[m205[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\profiling.py[m[36m:[m208[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\profiling.py[m[36m:[m215[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\profiling.py[m[36m:[m256[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\profiling.py[m[36m:[m268[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\profiling.py[m[36m:[m298[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\profiling.py[m[36m:[m302[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\profiling.py[m[36m:[m327[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\profiling.py[m[36m:[m358[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\profiling.py[m[36m:[m367[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\profiling.py[m[36m:[m372[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\profiling.py[m[36m:[m386[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\profiling.py[m[36m:[m394[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\profiling.py[m[36m:[m403[36m:[m17[36m:[m [1m[31mF841[m local variable 'logits' is assigned to but never used
+[1m.\microgpt\quantization.py[m[36m:[m14[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\quantization.py[m[36m:[m23[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\quantization.py[m[36m:[m47[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\quantization.py[m[36m:[m81[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\quantization.py[m[36m:[m93[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\quantization.py[m[36m:[m100[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\quantization.py[m[36m:[m103[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\quantization.py[m[36m:[m105[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\quantization.py[m[36m:[m165[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\quantization.py[m[36m:[m236[36m:[m27[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\quantization.py[m[36m:[m237[36m:[m29[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\quantization.py[m[36m:[m238[36m:[m29[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\quantization.py[m[36m:[m241[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\quantum_inspired.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'typing.Tuple' imported but unused
+[1m.\microgpt\quantum_inspired.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'typing.Dict' imported but unused
+[1m.\microgpt\quantum_inspired.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\quantum_inspired.py[m[36m:[m43[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\quantum_inspired.py[m[36m:[m44[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\quantum_inspired.py[m[36m:[m88[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\quantum_inspired.py[m[36m:[m133[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\quantum_inspired.py[m[36m:[m137[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\quantum_inspired.py[m[36m:[m157[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\quantum_inspired.py[m[36m:[m178[36m:[m13[36m:[m [1m[31mF841[m local variable 'measurement' is assigned to but never used
+[1m.\microgpt\quantum_inspired.py[m[36m:[m196[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\quantum_inspired.py[m[36m:[m220[36m:[m54[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\quantum_inspired.py[m[36m:[m284[36m:[m11[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\microgpt\reasoning.py[m[36m:[m52[36m:[m13[36m:[m [1m[31mF841[m local variable 'full_text' is assigned to but never used
+[1m.\microgpt\reasoning.py[m[36m:[m111[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\reasoning.py[m[36m:[m233[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\reasoning.py[m[36m:[m344[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\safety_alignment.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\safety_alignment.py[m[36m:[m34[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\safety_alignment.py[m[36m:[m52[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\safety_alignment.py[m[36m:[m73[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\safety_alignment.py[m[36m:[m93[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\safety_alignment.py[m[36m:[m160[36m:[m9[36m:[m [1m[31mF841[m local variable 'critique_prompt' is assigned to but never used
+[1m.\microgpt\safety_alignment.py[m[36m:[m163[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\safety_alignment.py[m[36m:[m175[36m:[m9[36m:[m [1m[31mF841[m local variable 'revision_prompt' is assigned to but never used
+[1m.\microgpt\safety_alignment.py[m[36m:[m212[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\safety_alignment.py[m[36m:[m230[36m:[m19[36m:[m [1m[31mF821[m undefined name 'l'
+[1m.\microgpt\safety_alignment.py[m[36m:[m301[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\safety_alignment.py[m[36m:[m311[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\safety_alignment.py[m[36m:[m330[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\safety_alignment.py[m[36m:[m339[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\safety_alignment.py[m[36m:[m402[36m:[m13[36m:[m [1m[31mF841[m local variable 'correction_prompt' is assigned to but never used
+[1m.\microgpt\safety_alignment.py[m[36m:[m413[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\self_modifying.py[m[36m:[m13[36m:[m1[36m:[m [1m[31mF401[m 'pathlib.Path' imported but unused
+[1m.\microgpt\self_modifying.py[m[36m:[m74[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\self_modifying.py[m[36m:[m97[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\self_modifying.py[m[36m:[m99[36m:[m80[36m:[m [1m[31mE501[m line too long (126 > 79 characters)
+[1m.\microgpt\self_modifying.py[m[36m:[m176[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\self_modifying.py[m[36m:[m204[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\self_modifying.py[m[36m:[m210[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\self_modifying.py[m[36m:[m213[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\microgpt\self_modifying.py[m[36m:[m227[36m:[m11[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\microgpt\state_of_the_art.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\state_of_the_art.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Dict' imported but unused
+[1m.\microgpt\state_of_the_art.py[m[36m:[m18[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m27[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m31[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m35[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m39[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m46[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m64[36m:[m37[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\state_of_the_art.py[m[36m:[m70[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m80[36m:[m36[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\state_of_the_art.py[m[36m:[m81[36m:[m51[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\state_of_the_art.py[m[36m:[m93[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m129[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m132[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m177[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m214[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m218[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m221[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m228[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m250[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m260[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m281[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m282[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m283[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m285[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m286[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m287[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m293[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m300[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m313[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m322[36m:[m9[36m:[m [1m[31mF841[m local variable 'v2' is assigned to but never used
+[1m.\microgpt\state_of_the_art.py[m[36m:[m348[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m377[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m380[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m384[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m423[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m427[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m489[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m544[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\state_of_the_art.py[m[36m:[m545[36m:[m39[36m:[m [1m[31mF821[m undefined name 'l'
+[1m.\microgpt\swarm_intelligence.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Any' imported but unused
+[1m.\microgpt\swarm_intelligence.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\swarm_intelligence.py[m[36m:[m30[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\swarm_intelligence.py[m[36m:[m46[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\swarm_intelligence.py[m[36m:[m61[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\swarm_intelligence.py[m[36m:[m74[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\swarm_intelligence.py[m[36m:[m76[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\swarm_intelligence.py[m[36m:[m97[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\swarm_intelligence.py[m[36m:[m111[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\swarm_intelligence.py[m[36m:[m153[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\swarm_intelligence.py[m[36m:[m207[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\swarm_intelligence.py[m[36m:[m220[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\swarm_intelligence.py[m[36m:[m228[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\swarm_intelligence.py[m[36m:[m230[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\swarm_intelligence.py[m[36m:[m268[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\swarm_intelligence.py[m[36m:[m278[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\test_runner.py[m[36m:[m11[36m:[m1[36m:[m [1m[31mF401[m 'pathlib.Path' imported but unused
+[1m.\microgpt\test_runner.py[m[36m:[m47[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\test_runner.py[m[36m:[m129[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\test_runner.py[m[36m:[m172[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\test_runner.py[m[36m:[m175[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\test_runner.py[m[36m:[m191[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\tokenizers.py[m[36m:[m7[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\tokenizers.py[m[36m:[m36[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\tokenizers.py[m[36m:[m54[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\tokenizers.py[m[36m:[m62[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\tokenizers.py[m[36m:[m197[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\tokenizers.py[m[36m:[m199[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\tokenizers.py[m[36m:[m248[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\tokenizers.py[m[36m:[m343[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\tokenizers.py[m[36m:[m371[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\tokenizers.py[m[36m:[m372[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\tokenizers.py[m[36m:[m435[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\tokenizers.py[m[36m:[m444[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\trainer.py[m[36m:[m86[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\trainer.py[m[36m:[m93[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\trainer.py[m[36m:[m134[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\trainer.py[m[36m:[m151[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\trainer.py[m[36m:[m154[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\trainer.py[m[36m:[m158[36m:[m80[36m:[m [1m[31mE501[m line too long (93 > 79 characters)
+[1m.\microgpt\trainer.py[m[36m:[m198[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\trainer.py[m[36m:[m207[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\trainer.py[m[36m:[m238[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\unified_integration.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Callable' imported but unused
+[1m.\microgpt\unified_integration.py[m[36m:[m11[36m:[m1[36m:[m [1m[31mF401[m 'dataclasses.field' imported but unused
+[1m.\microgpt\unified_integration.py[m[36m:[m15[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\unified_integration.py[m[36m:[m168[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\unified_integration.py[m[36m:[m174[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\unified_integration.py[m[36m:[m179[36m:[m80[36m:[m [1m[31mE501[m line too long (99 > 79 characters)
+[1m.\microgpt\unified_integration.py[m[36m:[m190[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\unified_integration.py[m[36m:[m196[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\microgpt\unified_integration.py[m[36m:[m208[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\unified_integration.py[m[36m:[m219[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\unified_integration.py[m[36m:[m237[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\unified_integration.py[m[36m:[m252[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\unified_integration.py[m[36m:[m253[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\unified_integration.py[m[36m:[m319[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\unified_integration.py[m[36m:[m323[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\unified_integration.py[m[36m:[m324[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\unified_integration.py[m[36m:[m416[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\unified_integration.py[m[36m:[m425[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\unified_integration.py[m[36m:[m441[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\unified_universe.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.List' imported but unused
+[1m.\microgpt\unified_universe.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Optional' imported but unused
+[1m.\microgpt\unified_universe.py[m[36m:[m8[36m:[m1[36m:[m [1m[31mF401[m 'typing.Tuple' imported but unused
+[1m.\microgpt\unified_universe.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'dataclasses.field' imported but unused
+[1m.\microgpt\unified_universe.py[m[36m:[m10[36m:[m1[36m:[m [1m[31mF401[m 'pathlib.Path' imported but unused
+[1m.\microgpt\unified_universe.py[m[36m:[m71[36m:[m80[36m:[m [1m[31mE501[m line too long (96 > 79 characters)
+[1m.\microgpt\unified_universe.py[m[36m:[m78[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\unified_universe.py[m[36m:[m85[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\microgpt\unified_universe.py[m[36m:[m116[36m:[m9[36m:[m [1m[31mF841[m local variable 'frac_net' is assigned to but never used
+[1m.\microgpt\unified_universe.py[m[36m:[m120[36m:[m9[36m:[m [1m[31mF841[m local variable 'variant' is assigned to but never used
+[1m.\microgpt\unified_universe.py[m[36m:[m120[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\unified_universe.py[m[36m:[m150[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\unified_universe.py[m[36m:[m192[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\unified_universe.py[m[36m:[m193[36m:[m80[36m:[m [1m[31mE501[m line too long (100 > 79 characters)
+[1m.\microgpt\unified_universe.py[m[36m:[m203[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\unified_universe.py[m[36m:[m205[36m:[m80[36m:[m [1m[31mE501[m line too long (88 > 79 characters)
+[1m.\microgpt\unified_universe.py[m[36m:[m228[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\unified_universe.py[m[36m:[m230[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\unified_universe.py[m[36m:[m265[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\unified_universe.py[m[36m:[m282[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\unified_universe.py[m[36m:[m283[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\unified_universe.py[m[36m:[m294[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\visualize.py[m[36m:[m6[36m:[m1[36m:[m [1m[31mF401[m 'pathlib.Path' imported but unused
+[1m.\microgpt\visualize.py[m[36m:[m7[36m:[m1[36m:[m [1m[31mF401[m 'typing.Dict' imported but unused
+[1m.\microgpt\visualize.py[m[36m:[m13[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\visualize.py[m[36m:[m14[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\visualize.py[m[36m:[m46[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\visualize.py[m[36m:[m54[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\microgpt\visualize.py[m[36m:[m73[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\microgpt\visualize.py[m[36m:[m106[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\visualize.py[m[36m:[m109[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\microgpt\visualize.py[m[36m:[m124[36m:[m11[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\microgpt\visualize.py[m[36m:[m126[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\visualize.py[m[36m:[m133[36m:[m11[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\microgpt\visualize.py[m[36m:[m139[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\visualize.py[m[36m:[m145[36m:[m24[36m:[m [1m[31mE203[m whitespace before ':'
+[1m.\microgpt\visualize.py[m[36m:[m147[36m:[m11[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\microgpt\visualize.py[m[36m:[m166[36m:[m80[36m:[m [1m[31mE501[m line too long (83 > 79 characters)
+[1m.\microgpt\visualize.py[m[36m:[m172[36m:[m5[36m:[m [1m[31mF401[m 'checkpoint.CheckpointManager' imported but unused
+[1m.\microgpt\visualize.py[m[36m:[m217[36m:[m80[36m:[m [1m[31mE501[m line too long (89 > 79 characters)
+[1m.\microgpt\visualize.py[m[36m:[m232[36m:[m11[36m:[m [1m[31mF541[m f-string is missing placeholders
+[1m.\microgpt\visualize.py[m[36m:[m243[36m:[m9[36m:[m [1m[31mF401[m 'torch' imported but unused
+[1m.\microgpt\visualize.py[m[36m:[m244[36m:[m9[36m:[m [1m[31mF401[m 'torch.nn' imported but unused
+[1m.\microgpt\web_app.py[m[36m:[m12[36m:[m1[36m:[m [1m[31mF401[m '.data.CharTokenizer' imported but unused
+[1m.\microgpt\web_app.py[m[36m:[m81[36m:[m5[36m:[m [1m[31mF824[m `global model` is unused: name is never assigned in scope
+[1m.\microgpt\web_app.py[m[36m:[m81[36m:[m5[36m:[m [1m[31mF824[m `global tokenizer` is unused: name is never assigned in scope
+[1m.\microgpt\web_app.py[m[36m:[m81[36m:[m5[36m:[m [1m[31mF824[m `global config` is unused: name is never assigned in scope
+[1m.\microgpt\web_app.py[m[36m:[m117[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\web_app.py[m[36m:[m145[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\web_app.py[m[36m:[m153[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\web_app.py[m[36m:[m158[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\web_app.py[m[36m:[m181[36m:[m5[36m:[m [1m[31mF824[m `global model` is unused: name is never assigned in scope
+[1m.\microgpt\web_app.py[m[36m:[m181[36m:[m5[36m:[m [1m[31mF824[m `global config` is unused: name is never assigned in scope
+[1m.\microgpt\web_app.py[m[36m:[m211[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\web_app.py[m[36m:[m295[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\microgpt\web_app.py[m[36m:[m297[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m.\microgpt\web_app.py[m[36m:[m301[36m:[m80[36m:[m [1m[31mE501[m line too long (97 > 79 characters)
+[1m.\microgpt\web_app.py[m[36m:[m305[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\web_app.py[m[36m:[m309[36m:[m80[36m:[m [1m[31mE501[m line too long (81 > 79 characters)
+[1m.\microgpt\web_app.py[m[36m:[m312[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m.\microgpt\web_app.py[m[36m:[m320[36m:[m80[36m:[m [1m[31mE501[m line too long (91 > 79 characters)
+[1m.\microgpt\web_app.py[m[36m:[m327[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m.\microgpt\web_app.py[m[36m:[m329[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m.\microgpt\web_app.py[m[36m:[m337[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m.\microgpt\web_app.py[m[36m:[m340[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m.\microgpt\web_app.py[m[36m:[m343[36m:[m80[36m:[m [1m[31mE501[m line too long (86 > 79 characters)
+[1m.\microgpt\web_app.py[m[36m:[m344[36m:[m80[36m:[m [1m[31mE501[m line too long (82 > 79 characters)
+[1m.\microgpt\web_app.py[m[36m:[m345[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\microgpt\web_app.py[m[36m:[m348[36m:[m62[36m:[m [1m[31mW291[m trailing whitespace
+[1m.\microgpt\web_app.py[m[36m:[m351[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m.\microgpt\web_app.py[m[36m:[m358[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m.\microgpt\web_app.py[m[36m:[m360[36m:[m1[36m:[m [1m[31mW293[m blank line contains whitespace
+[1m.\microgpt\web_app.py[m[36m:[m362[36m:[m80[36m:[m [1m[31mE501[m line too long (87 > 79 characters)
+[1m.\microgpt\web_app.py[m[36m:[m364[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\microgpt\web_app.py[m[36m:[m372[36m:[m80[36m:[m [1m[31mE501[m line too long (84 > 79 characters)
+[1m.\setup.py[m[36m:[m7[36m:[m1[36m:[m [1m[31mF401[m 'os' imported but unused
+[1m.\setup.py[m[36m:[m27[36m:[m80[36m:[m [1m[31mE501[m line too long (92 > 79 characters)
+[1m.\test_microgpt.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'config.Config' imported but unused
+[1m.\test_microgpt.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'config.ModelConfig' imported but unused
+[1m.\test_microgpt.py[m[36m:[m9[36m:[m1[36m:[m [1m[31mF401[m 'config.GenerationConfig' imported but unused
+[1m.\test_microgpt.py[m[36m:[m85[36m:[m80[36m:[m [1m[31mE501[m line too long (90 > 79 characters)
+[1m.\test_microgpt.py[m[36m:[m152[36m:[m80[36m:[m [1m[31mE501[m line too long (98 > 79 characters)
+[1m.\test_microgpt.py[m[36m:[m278[36m:[m80[36m:[m [1m[31mE501[m line too long (94 > 79 characters)
+[1m.\test_microgpt.py[m[36m:[m312[36m:[m13[36m:[m [1m[31mF841[m local variable 'loss' is assigned to but never used
+[1m.\test_microgpt.py[m[36m:[m322[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\tests\test_advanced.py[m[36m:[m10[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\tests\test_advanced.py[m[36m:[m11[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\tests\test_advanced.py[m[36m:[m12[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\tests\test_advanced.py[m[36m:[m45[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\tests\test_advanced.py[m[36m:[m146[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\tests\test_model.py[m[36m:[m10[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\tests\test_model.py[m[36m:[m11[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\tests\test_model.py[m[36m:[m74[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\tests\test_model.py[m[36m:[m96[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
+[1m.\tests\test_model.py[m[36m:[m144[36m:[m80[36m:[m [1m[31mE501[m line too long (80 > 79 characters)
+[1m.\tests\test_training.py[m[36m:[m10[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\tests\test_training.py[m[36m:[m11[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\tests\test_training.py[m[36m:[m12[36m:[m1[36m:[m [1m[31mE402[m module level import not at top of file
+[1m.\tests\test_training.py[m[36m:[m12[36m:[m80[36m:[m [1m[31mE501[m line too long (95 > 79 characters)
+[1m.\tests\test_training.py[m[36m:[m132[36m:[m80[36m:[m [1m[31mE501[m line too long (85 > 79 characters)
